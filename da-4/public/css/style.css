@@ -1,0 +1,355 @@
+#nav {
+	width:100%;
+	height: 50px;
+	background-color: black;
+}
+.form-control {
+	width: 330px; height: 30px; float: left;font-size: 12;margin-left: 400px; margin-top: 5px;
+}
+#nav button{
+	float: left;border: 0;margin-left: -45px;float: left;
+}
+#navbar1{
+	color: black; margin-left: 57px;
+}
+
+#slide2 {
+	text-align: center;
+}
+#slide2 h3{
+	margin-top: 30px; 
+}
+#slide2 p{
+	color: grey;
+}
+#thuonghieu a img:hover{
+	filter: grayscale(0);
+}
+
+#thongtin img{
+	margin-left: 50px;
+}
+#thongtin p{
+	font-size: 12px; text-align: center;
+}
+#thongtin2 p{
+	font-size: 22px; margin-top: 25px;
+}
+#thongtin3 p{
+	color: white; font-size: 15px; margin-top: 25px; text-align: center;
+}
+#footer{
+	background-color: black; width:100%; height: 140;
+}
+#trogiup p{
+	text-align: left; margin-left: 20px;color: white;
+}
+#banchay1 p{
+	text-align: center; margin-left: 100px;
+
+}
+#banchay1 strike{
+	color: grey; margin-right: 10px;
+}
+#dhnu p{
+	text-align: center; margin-left: 100px;
+}
+#dhnu strike{
+	color: grey; margin-right: 10px;
+}
+
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	margin-left: 50px;
+	box-shadow: 5px 2px 5px 2px #808080;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 40%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.middle a{
+	font-size: 13px;
+}
+
+.col-lg-3:hover .image {
+	border: 1px solid black;
+	opacity: 0.3;
+
+	-ms-transform: scale(1.05); 
+	-webkit-transform: scale(1.05); 
+	transform: scale(1.05); 
+	
+}
+
+.col-lg-3:hover .middle {
+	opacity: 1;
+
+
+}
+
+
+
+.text:hover{
+		background:#B3AFAF;
+	}
+.text {
+		/*border: 1px solid black;*/
+		font-size: 16px;
+		/*padding: 8px 16px;*/
+		margin-bottom: 50px;
+	}
+
+#image_chitiet img:hover{
+	border: 1px solid black;
+	-ms-transform: scale(1.1); 
+	-webkit-transform: scale(1.1); 
+	transform: scale(1.1); 
+
+}
+#tintuc img:hover{
+	
+	-ms-transform: scale(1.1); 
+	-webkit-transform: scale(1.1); 
+	transform: scale(1.1); 
+}
+
+
+
+/*tài khoản*/
+
+.user-header1 {
+	height: 175px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    
+}
+.btn:hover{
+	background-color: #CCC8C8;
+}
+
+/*product*/
+
+
+
+
+
+/*giỏ hàng*/
+
+.beta-select{
+	height: 50px;
+	width: 150px;
+	margin-left: 1185px;
+	padding-top: 12px;
+}
+.beta-select i{
+	float: left;
+	color: white;
+	margin-right: 10px;
+}
+.beta-select p{
+	color: white;
+	font-size: 11px;
+	float: left;
+	margin-right: 10px;
+}
+
+.cart {
+cursor:pointer;
+
+}
+
+.cart .beta-select {
+position:static
+}
+
+.cart .beta-select i:first-child {
+margin-right:3px;
+color:#999da0;
+padding-left:0;
+padding-right:0;
+font-size:16px;
+}
+
+.cart .beta-select i:last-child {
+margin-left:3px;
+padding-left:0;
+padding-right:0;
+}
+
+.cart-body {
+display:none;
+position:absolute;
+right:15px;
+z-index:100;
+background:#fff;
+border:1px solid #e1e1e1;
+padding:0 10px 10px;
+cursor:default;
+}
+
+.cart-item {
+position:relative;
+padding:20px 0;
+border-bottom:1px solid #e1e1e1;
+}
+
+.cart-item-edit {
+position:absolute;
+top:20px;
+right:16px;
+background:#e1e1e1;
+font-size:10px;
+width:15px;
+height:15px;
+text-align:center;
+line-height:15px;
+}
+
+.cart-item-delete {
+position:absolute;
+top:20px;
+right:0;
+background:#e1e1e1;
+font-size:10px;
+width:15px;
+height:15px;
+text-align:center;
+line-height:15px;
+}
+
+.cart-item .media {
+margin-top:0;
+line-height:100%;
+padding-right:70px;
+}
+
+.cart-item .media .pull-left,.cart-item .media .pull-left .img {
+width:50px;
+}
+
+.cart-item .media-body>span {
+display:block;
+margin-bottom:5px;
+}
+
+.cart-item-amount span {
+color:#f90
+}
+
+.cart-total {
+border-bottom:1px solid #e1e1e1;
+font-size:15px;
+height:50px;
+line-height:50px
+}
+
+.cart-total-value {
+color:#f90
+}
+
+.beta-tags {
+margin-top:20px
+}
+
+.beta-tags a {
+background:#f2f2f2;
+display:inline-block;
+padding:5px 10px;
+margin-bottom:10px;
+margin-right:6px
+}
+
+.beta-tags a:hover {
+background:#3a5c83;
+color:#fff
+}
+
+.beta-sales-item .pull-left {
+margin-right:20px
+}
+
+.beta-sales-item img {
+width:55px;
+height:auto
+}
+
+.beta-sales-price {
+font-size:20px;
+color:#f90
+}
+
+
+/*đặt hàng*/
+
+.your-order{
+	position: relative;
+    min-height: 1px;
+   
+    border: 1px solid #e8e8e8; 
+}
+.your-order-head{
+	 height: 55px;
+    background-color: #f8f8f8;
+    padding-left: 40px; padding-right: 40px;padding-top: 10px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.media img{
+	margin-right: 10px;
+	width: 80px;
+	height: 80px;
+}
+.media-body{
+	margin-top: 10px;
+}
+.your-order-f18{
+	padding-top: 30px;
+}
+.pull-left{
+	float: left;
+}
+.color-black{
+	padding-top: 30px;
+	margin-left: 375px;
+
+}
+.text-center{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.payment_methods{
+	list-style: none;
+	margin-top: 50px;
+}
+.payment_box {
+	font-size: 13px;
+	padding: 20px;
+	margin-right: 40px;
+	background-color: #f8f8f8;
+}
+.form-block input{
+	border: 1px solid #e8e8e8; 
+	font-weight: lighter;
+	font-size: 13px;
+}
+.form-block textarea{
+	width: 307px;
+	height: 114px;
+	margin-left: 151px;
+	padding: 10px;
+	border: 1px solid #e8e8e8;
+}
